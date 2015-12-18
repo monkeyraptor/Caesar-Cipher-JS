@@ -12,8 +12,8 @@ function jcc(a, b, c) {
         // shifting each letter
         z.forEach(function (v, i) {
             var rui, rli;
+            // matching and shifting uppercase [rui]
             uc_a.forEach(function (iv, ii) {
-                // matching and shifting uppercase [rui]
                 if (v === iv) {
                     if (c === 0) {
                         rui = ii + b;
@@ -29,8 +29,10 @@ function jcc(a, b, c) {
                         z[i] = uc_a[rui];
                     }
                 }
-                // matching and shifting lowercase [rli]
-                if (v === lc_a[iv]) {
+            });
+            // matching and shifting lowercase [rli]
+            lc_a.forEach(function (iv, ii) {
+                if (v === iv) {
                     if (c === 0) {
                         rli = ii + b;
                         if (rli > 25) {
