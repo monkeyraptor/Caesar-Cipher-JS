@@ -7,8 +7,6 @@ function jcc(a, b, c) {
     c = Number(c);
     if (typeof a === "string" && b > 0 && b < 26 && /^(0|1)$/.test(c)) {
         z = a.split("");
-        b = Number(b);
-        c = Number(c);
         uc_a = uc_a.split("");
         lc_a = lc_a.split("");
         // shifting each letter
