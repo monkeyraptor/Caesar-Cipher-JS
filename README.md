@@ -17,7 +17,8 @@ Decrypt: `1`
 ## Usage Example
 ```
 //jcc([string input], [how many rotations], [encrypt or decrypt])
-
+```
+```
 var output = jcc("AbC", 1, 0);
 // the ROT23 encryption [output] will be: "BcD"
 ```
