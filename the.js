@@ -5,7 +5,7 @@ function jcc(a, b, c) {
         z;
     b = Number(b);
     c = Number(c);
-    if (typeof a === "string" && b > 0 && b < 26 && (c === 0 || c === 1)) {
+    if (typeof a === "string" && b > 0 && b < 26 && /0|1/.test(c)) {
         z = a.split("");
         b = Number(b);
         c = Number(c);
