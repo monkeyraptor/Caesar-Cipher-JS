@@ -33,3 +33,6 @@ var output = jcc("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23, 0);
 var output = jcc("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", 23, 1);
 // the ROT23 decryption [output] will be: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
 ```
+
+## With User Interface
+Go to <a href="http://portraptor.johanpaul.net/2015/12/online-caesar-cipher-calculator.html" target="_blank" title="new tab">Port Raptor</a>.
