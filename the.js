@@ -3,7 +3,7 @@ function jcc(a, b, c) {
     var uc_a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
         lc_a = "abcdefghijklmnopqrstuvwxyz",
         z;
-    if (typeof a === "string" && typeof Number(b) === "number" && typeof Number(c) === "number") {
+    if (typeof a === "string" && !isNaN(Number(b)) && !isNaN(Number(c))) {
         z = a.split("");
         b = Number(b);
         c = Number(c);
