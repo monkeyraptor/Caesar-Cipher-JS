@@ -14,13 +14,16 @@ Encrypt: `0`
 
 Decrypt: `1`
 
+The "Encrypt" means shift **forward** (increases the index reference).
+The "Decrypt" means shift **backward** (reduces the index reference).
+
 ## Usage Example
 ```
 //jcc([string input], [how many rotations], [encrypt or decrypt])
 ```
 ```
 var output = jcc("AbC", 1, 0);
-// the ROT23 encryption [output] will be: "BcD"
+// the ROT1 encryption [output] will be: "BcD"
 ```
 ```
 var output = jcc("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23, 0);
