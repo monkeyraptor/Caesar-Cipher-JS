@@ -1,5 +1,5 @@
-# Caesar-Cipher-JS
-The Caesar Cipher in JavaScript
+# Caesar Cipher JS
+The Mr Juli Caesar Cipher in JavaScript
 
 ## Usage
 `jcc([string input], [how many rotations], [encrypt or decrypt])`
