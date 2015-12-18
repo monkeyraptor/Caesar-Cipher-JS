@@ -3,7 +3,9 @@ function jcc(a, b, c) {
     var uc_a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
         lc_a = "abcdefghijklmnopqrstuvwxyz",
         z;
-    if (typeof a === "string" && !isNaN(Number(b)) && !isNaN(Number(c))) {
+    b = Number(b);
+    c = Number(c);
+    if (typeof a === "string" && b > 0 && b < 26 && (c === 0 || c === 1)) {
         z = a.split("");
         b = Number(b);
         c = Number(c);
