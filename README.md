@@ -1,6 +1,6 @@
 # Caesar Cipher JS
 The Mr Juli Caesar Cipher in JavaScript
-
+![JCC](https://storage.googleapis.com/thor_power/jc.png)
 ## Usage
 `jcc([string input], [how many rotations], [encrypt or decrypt])`
 
